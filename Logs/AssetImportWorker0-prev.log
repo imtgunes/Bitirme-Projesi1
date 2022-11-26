@@ -1,0 +1,613 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/IMTG/BitirmeProjesi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61681
+Successfully changed project path to: C:/Users/IMTG/BitirmeProjesi
+C:/Users/IMTG/BitirmeProjesi
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.13 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 2.35 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/IMTG/BitirmeProjesi/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001061 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.93 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (460ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (361ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <0213e6f0fa134fa89db6bafa02899715>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <0213e6f0fa134fa89db6bafa02899715>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <0213e6f0fa134fa89db6bafa02899715>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 1603 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 2.811000 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.479100 ms  DeleteObjects: 0.091900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Bee
+  artifactKey: Guid(9adf529cfdfec0d48bec0d54ed9ed186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bee using Guid(9adf529cfdfec0d48bec0d54ed9ed186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d7e179d9606f56d16f2bee1ec655ef') in 0.004101 seconds 
+  Import took 0.006774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Bee/Bee.fbx
+  artifactKey: Guid(c427b6c27b9c3434c9d087957c7ba5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bee/Bee.fbx using Guid(c427b6c27b9c3434c9d087957c7ba5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686e01f3099f5a627481e2720d3c25d2') in 0.142321 seconds 
+  Import took 0.144730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/Bee/UVBee.png
+  artifactKey: Guid(7096d41bc08ad934396a645cf0e13910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bee/UVBee.png using Guid(7096d41bc08ad934396a645cf0e13910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ee1ef51b0df33e9c71673f43ff02cc') in 0.019212 seconds 
+  Import took 0.021331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.057940 seconds.
+  path: Assets/Models/Cat/Cat_diffuse.jpg
+  artifactKey: Guid(1b1b1f2cf0dc9a24fbefe802eab6735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/Cat_diffuse.jpg using Guid(1b1b1f2cf0dc9a24fbefe802eab6735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5391577de4782130c297be2100a90208') in 0.013204 seconds 
+  Import took 0.016090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.663400 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Cat_scaled.jpg
+  artifactKey: Guid(2602d574c8164d5985173a0533c48a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Cat_scaled.jpg using Guid(2602d574c8164d5985173a0533c48a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d769b2ca380eebb96d04c6c751fb42') in 0.019897 seconds 
+  Import took 0.022258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.595570 seconds.
+  path: Assets/Models/Cat
+  artifactKey: Guid(61e3bb18c9b02e8478e7056dd7715fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat using Guid(61e3bb18c9b02e8478e7056dd7715fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938d01cc5029d45cec9665756af924bd') in 0.001416 seconds 
+  Import took 0.004145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113862 seconds.
+  path: Assets/Models/Cat/Cat.fbx
+  artifactKey: Guid(fbf18b418d4117d4ea525b81fc8e4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cat/Cat.fbx using Guid(fbf18b418d4117d4ea525b81fc8e4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d43b6c63b1e0eb903875881ce0c5525') in 0.029737 seconds 
+  Import took 0.032171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.384555 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Deer_scaled.jpg
+  artifactKey: Guid(1b57b528c86445f98085e1540e083f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Deer_scaled.jpg using Guid(1b57b528c86445f98085e1540e083f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e9e6560f4b21a1365dbda61f81e1ec') in 0.019942 seconds 
+  Import took 0.022694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.629010 seconds.
+  path: Assets/Models/Deer
+  artifactKey: Guid(002a70d0fbdc2f744a960d9c1bf81648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Deer using Guid(002a70d0fbdc2f744a960d9c1bf81648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1953845f1abfd5fe7068d175584600ea') in 0.002213 seconds 
+  Import took 0.005215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084558 seconds.
+  path: Assets/Models/Deer/1.jpg7F978319-1530-4FE5-B866-7C9E8221E24BDefaultHQ.jpg
+  artifactKey: Guid(494e44f9ada40fd49945466460af88dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Deer/1.jpg7F978319-1530-4FE5-B866-7C9E8221E24BDefaultHQ.jpg using Guid(494e44f9ada40fd49945466460af88dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f16c361c5d35145b531516c7e67b70') in 0.009794 seconds 
+  Import took 0.012164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Models/Deer/Deer.fbx
+  artifactKey: Guid(15e6919c2c1232d4e88bd6cfaf400e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Deer/Deer.fbx using Guid(15e6919c2c1232d4e88bd6cfaf400e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5803ae7789604f0c44263ca0081a49') in 0.043535 seconds 
+  Import took 0.045571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Models/Deer/5.jpgA048D8C1-D123-4C69-93EE-35634F68592FDefaultHQ.jpg
+  artifactKey: Guid(ee7cf612b9c557b45b9fdf3dd9935e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Deer/5.jpgA048D8C1-D123-4C69-93EE-35634F68592FDefaultHQ.jpg using Guid(ee7cf612b9c557b45b9fdf3dd9935e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e6666467133d4c5b570b8ed62a0cf7') in 0.004963 seconds 
+  Import took 0.006781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 779.778655 seconds.
+  path: Assets/Models/Elephant/elefantefull.png
+  artifactKey: Guid(b9418a2d9218e0247b1631bac8a9638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Elephant/elefantefull.png using Guid(b9418a2d9218e0247b1631bac8a9638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1981388432262cea087f6c4281db28') in 0.023598 seconds 
+  Import took 0.027400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.944193 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Elephant_scaled.jpg
+  artifactKey: Guid(21bb9c0505cc43e39eb0fe0ee0ca53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Elephant_scaled.jpg using Guid(21bb9c0505cc43e39eb0fe0ee0ca53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ee34968629b434e7977fbd0b4e041c') in 0.016121 seconds 
+  Import took 0.018948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.823673 seconds.
+  path: Assets/Models/Elephant
+  artifactKey: Guid(6d2c97f0e3e714544851b541dd0b4a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Elephant using Guid(6d2c97f0e3e714544851b541dd0b4a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d842f1fe6f6bf16f58f40ce4507c79') in 0.001337 seconds 
+  Import took 0.003712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086816 seconds.
+  path: Assets/Models/Elephant/Elephant.fbx
+  artifactKey: Guid(0dbfd23966757e14e9507aa9dc8d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Elephant/Elephant.fbx using Guid(0dbfd23966757e14e9507aa9dc8d568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24115adc82feaf162b7c2103b83f8aec') in 0.026387 seconds 
+  Import took 0.028701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.443501 seconds.
+  path: Assets/Models/Goat/goat_diff.jpg
+  artifactKey: Guid(9d963f368f0f3574693278c0d2ff02db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Goat/goat_diff.jpg using Guid(9d963f368f0f3574693278c0d2ff02db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740a09e60d157cb82cbd8e5298e149b') in 0.010745 seconds 
+  Import took 0.013972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.084012 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Fox_scaled.jpg
+  artifactKey: Guid(82d8c31c4cb241929fc9f00de978b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Fox_scaled.jpg using Guid(82d8c31c4cb241929fc9f00de978b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e74ec998ad624b08b045991cf37517') in 0.016794 seconds 
+  Import took 0.019372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.533409 seconds.
+  path: Assets/Models/Fox
+  artifactKey: Guid(6e20a6857cb6cdf4a9aa456c2d34c95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fox using Guid(6e20a6857cb6cdf4a9aa456c2d34c95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6264ea09539e7c91bc73f43e6f70b2') in 0.001379 seconds 
+  Import took 0.003791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054792 seconds.
+  path: Assets/Models/Fox/Fox.obj
+  artifactKey: Guid(c5b9fc6508da01841bff003a831ecbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fox/Fox.obj using Guid(c5b9fc6508da01841bff003a831ecbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97778847b14657240d4fde1a2ca325db') in 0.025153 seconds 
+  Import took 0.027640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.032559 seconds.
+  path: Assets/Models/Fox/fox.fbx
+  artifactKey: Guid(115216e425d41c34189694c647671600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fox/fox.fbx using Guid(115216e425d41c34189694c647671600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c50e88290eb1f77fa611d0058bfe8f2') in 0.114624 seconds 
+  Import took 0.125151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.852248 seconds.
+  path: Assets/Models/Fox/fox.fbx
+  artifactKey: Guid(115216e425d41c34189694c647671600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fox/fox.fbx using Guid(115216e425d41c34189694c647671600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630230ffda70d327387ae3f973685e1') in 0.114173 seconds 
+  Import took 0.123817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Models/Fox/COLOR2.png
+  artifactKey: Guid(088291e413d80d14187a60188d7f889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fox/COLOR2.png using Guid(088291e413d80d14187a60188d7f889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd1d029552b656b279f8e6ddda97475') in 0.007798 seconds 
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.860735 seconds.
+  path: Assets/Models/Horse/Horse_type_02_diff.tga
+  artifactKey: Guid(52df58627fe041543a66b7f8824c9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Horse/Horse_type_02_diff.tga using Guid(52df58627fe041543a66b7f8824c9550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6691559cdcda9a1ad0ed80ffc3aadcd6') in 0.043839 seconds 
+  Import took 0.046384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.527396 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Goat_scaled.jpg
+  artifactKey: Guid(be4d9d83e7d14a21b3695f362e76645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Goat_scaled.jpg using Guid(be4d9d83e7d14a21b3695f362e76645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bb0ee367ca69f93f05713ab2cf777c') in 0.013224 seconds 
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.374491 seconds.
+  path: Assets/Models/Goat
+  artifactKey: Guid(671eb4b2f567e62479311b686df6b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Goat using Guid(671eb4b2f567e62479311b686df6b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158b177d17ebef141972d1095f0482e8') in 0.001183 seconds 
+  Import took 0.003936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092623 seconds.
+  path: Assets/Models/Goat/Goat.fbx
+  artifactKey: Guid(aaa307ab1f940764aa94364efa2bbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Goat/Goat.fbx using Guid(aaa307ab1f940764aa94364efa2bbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99c73a0b3adea38ab1d9b45e3773eb9') in 0.020225 seconds 
+  Import took 0.022718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.784060 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Horse_scaled.jpg
+  artifactKey: Guid(404fad5d09004f49824d4d55ed5721bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Horse_scaled.jpg using Guid(404fad5d09004f49824d4d55ed5721bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5857a8c9a4149562605e5d53efcd2ec7') in 0.030492 seconds 
+  Import took 0.033930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.854617 seconds.
+  path: Assets/Models/Horse
+  artifactKey: Guid(07e129428e0e2414fbf2f4bf3e790c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Horse using Guid(07e129428e0e2414fbf2f4bf3e790c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae1982e8b4a3b3e3268f7abe4d7e782') in 0.001619 seconds 
+  Import took 0.004060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035936 seconds.
+  path: Assets/Models/Horse/Horse.fbx
+  artifactKey: Guid(6ddf271c1b5e12c45a37bd1fca9c7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Horse/Horse.fbx using Guid(6ddf271c1b5e12c45a37bd1fca9c7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10ec9131d006e85a08d4caf648c47f') in 0.027504 seconds 
+  Import took 0.030976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.368321 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/insect_scaled.jpg
+  artifactKey: Guid(e921c849a5134a0493ce95ee746ae379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/insect_scaled.jpg using Guid(e921c849a5134a0493ce95ee746ae379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8420d2c23e6393df3f3c952204d8a585') in 0.018527 seconds 
+  Import took 0.021488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.175066 seconds.
+  path: Assets/Models/Koala/koala_diff.jpg
+  artifactKey: Guid(e69980b1846f6c446bafa02a66e3d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Koala/koala_diff.jpg using Guid(e69980b1846f6c446bafa02a66e3d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43db497982fce40f10c210c456de873') in 0.013134 seconds 
+  Import took 0.015981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Rooster/LongCrowerTexture01.png
+  artifactKey: Guid(16e4b692fadd7d5498ff8caa5136354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rooster/LongCrowerTexture01.png using Guid(16e4b692fadd7d5498ff8caa5136354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6f97047434cb698a167be9889ca46a') in 0.012568 seconds 
+  Import took 0.015463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Models/Lion/Lion_low_default_AlbedoTransparency.jpg
+  artifactKey: Guid(6d5a41964cf38104dacaca69c1c5ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lion/Lion_low_default_AlbedoTransparency.jpg using Guid(6d5a41964cf38104dacaca69c1c5ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1823239e5409eb3f4724e8d58f9cef4c') in 0.013788 seconds 
+  Import took 0.016606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Models/insect/LADYBUG.TIF
+  artifactKey: Guid(54f09b477a64a6747b06e4b1b10bfb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/insect/LADYBUG.TIF using Guid(54f09b477a64a6747b06e4b1b10bfb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9a0bb8194cf15b66eadc253f271e7e') in 0.016887 seconds 
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Models/Rooster/LongCrowerTexture02_1.png
+  artifactKey: Guid(43e19cbcc4c24164e9eede8bd8edbc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rooster/LongCrowerTexture02_1.png using Guid(43e19cbcc4c24164e9eede8bd8edbc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a5380a1dd2994f09e9e67b61441ae') in 0.012846 seconds 
+  Import took 0.016046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/Rooster/LongCrowerTexture02_2.png
+  artifactKey: Guid(41de80c5ac16e8c4c8e19c79d5150be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rooster/LongCrowerTexture02_2.png using Guid(41de80c5ac16e8c4c8e19c79d5150be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077df96f3710556af09f447071d77a73') in 0.012424 seconds 
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.618483 seconds.
+  path: Assets/Models/insect
+  artifactKey: Guid(339a8dbec2063904c81a6a977fdedce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/insect using Guid(339a8dbec2063904c81a6a977fdedce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91e051cbc853a66193da056309d0ec0') in 0.001432 seconds 
+  Import took 0.003838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090946 seconds.
+  path: Assets/Models/insect/insect.fbx
+  artifactKey: Guid(0f5a8b05bd99bfa4783c9f2a2fe65de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/insect/insect.fbx using Guid(0f5a8b05bd99bfa4783c9f2a2fe65de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e991bf38502cc0f98cb25f7c245d192e') in 0.020118 seconds 
+  Import took 0.022827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.179218 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Jellyfish_scaled.jpg
+  artifactKey: Guid(08182916c15d4ba885554a47b7bf1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Jellyfish_scaled.jpg using Guid(08182916c15d4ba885554a47b7bf1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b48b196f6bb798121948863327251ed') in 0.017268 seconds 
+  Import took 0.019973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.133493 seconds.
+  path: Assets/Models/MantaRay
+  artifactKey: Guid(0575631d8d3a08f48866c569506c66c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MantaRay using Guid(0575631d8d3a08f48866c569506c66c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7282000b94fe6cfbdfbcc7741a77ccb0') in 0.001395 seconds 
+  Import took 0.003669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.015356 seconds.
+  path: Assets/Models/Jellyfish
+  artifactKey: Guid(f69134bf574125744b68fdeae0ff0d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jellyfish using Guid(f69134bf574125744b68fdeae0ff0d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c7380a6e7d72821661fd20dfa54db8') in 0.001327 seconds 
+  Import took 0.004166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092832 seconds.
+  path: Assets/Models/Jellyfish/Jellyfish.fbx
+  artifactKey: Guid(8381d7f771d32674e949a02f0d6a090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jellyfish/Jellyfish.fbx using Guid(8381d7f771d32674e949a02f0d6a090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4316b91558e35a1dc91bccd853b879fa') in 0.022580 seconds 
+  Import took 0.025011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.825680 seconds.
+  path: Assets/Models/Jellyfish/Jellyfish.fbx
+  artifactKey: Guid(8381d7f771d32674e949a02f0d6a090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jellyfish/Jellyfish.fbx using Guid(8381d7f771d32674e949a02f0d6a090b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa290a7e972f2223f38197e5c0d00eb3') in 0.041282 seconds 
+  Import took 0.044708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Models/Jellyfish/5.png
+  artifactKey: Guid(75c831f7e90c5f74baa1f269f952dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jellyfish/5.png using Guid(75c831f7e90c5f74baa1f269f952dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b325a9fd4580456a23635aaf67763a') in 0.007826 seconds 
+  Import took 0.010007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Models/Jellyfish/6.png
+  artifactKey: Guid(a418a3f6873f64641abf000c45e0667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jellyfish/6.png using Guid(a418a3f6873f64641abf000c45e0667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c073e6895e7adb5fe7e91ea9e069568') in 0.010046 seconds 
+  Import took 0.012202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 355.922665 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Koala_scaled.jpg
+  artifactKey: Guid(fa8c71a673994b5cb8ad0d979b0ebb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Koala_scaled.jpg using Guid(fa8c71a673994b5cb8ad0d979b0ebb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2dbdc737333cc6c0cf1eb559a82bb7') in 0.013664 seconds 
+  Import took 0.016796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.124960 seconds.
+  path: Assets/Models/Koala
+  artifactKey: Guid(15541e5d3dc88e5468de7df997e583d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Koala using Guid(15541e5d3dc88e5468de7df997e583d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03eea86b5cd5498c49625e7cf746743') in 0.001559 seconds 
+  Import took 0.003955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040659 seconds.
+  path: Assets/Models/Koala/Koala.obj
+  artifactKey: Guid(617a6f892518346459e00e0ca713855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Koala/Koala.obj using Guid(617a6f892518346459e00e0ca713855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d59da91e26d2add2b8791eb578284d') in 0.030729 seconds 
+  Import took 0.033621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.817236 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Lion_scaled.jpg
+  artifactKey: Guid(9f6b3bd0d7a34289b6cb1fa8a56b145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Lion_scaled.jpg using Guid(9f6b3bd0d7a34289b6cb1fa8a56b145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a511d23994b2d81bc7e30dc6a1a97d48') in 0.014008 seconds 
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.715342 seconds.
+  path: Assets/Models/Lion
+  artifactKey: Guid(ac345b2828250b24ba0639359cd7815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lion using Guid(ac345b2828250b24ba0639359cd7815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89afc9fc69ed3a46ebdec3e264334747') in 0.001243 seconds 
+  Import took 0.004189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075486 seconds.
+  path: Assets/Models/Lion/Lion.fbx
+  artifactKey: Guid(d4ac640142cdd80469d5482e9716d455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Lion/Lion.fbx using Guid(d4ac640142cdd80469d5482e9716d455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7531c3b378921d486bf15f802df50db') in 0.023695 seconds 
+  Import took 0.026444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.011420 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Mantaray_scaled.jpg
+  artifactKey: Guid(8cefb089d449481a955ba7ea2fa10623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/BitirmeProjesi/Mantaray_scaled.jpg using Guid(8cefb089d449481a955ba7ea2fa10623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ec742512348b08d979f4efef09a1dc') in 0.016559 seconds 
+  Import took 0.019528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.599932 seconds.
+  path: Assets/Models/MantaRay/MantaRay.fbx
+  artifactKey: Guid(6121d20036b52074aa383ebeee2c26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MantaRay/MantaRay.fbx using Guid(6121d20036b52074aa383ebeee2c26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f4da70266cea8540d9e637e53d9b07') in 0.019706 seconds 
+  Import took 0.022334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 345.900440 seconds.
+  path: Assets/Models/MantaRay/MantaRay.fbx
+  artifactKey: Guid(6121d20036b52074aa383ebeee2c26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MantaRay/MantaRay.fbx using Guid(6121d20036b52074aa383ebeee2c26a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c271c8e6ce19596f1caea20d4c46ee') in 0.024981 seconds 
+  Import took 0.028827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/MantaRay/Material #15.mat
+  artifactKey: Guid(2f3914cba9cd397408b300fbc86f72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MantaRay/Material #15.mat using Guid(2f3914cba9cd397408b300fbc86f72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7437139a859bde922714a772fe8e56') in 0.012591 seconds 
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.932737 seconds.
+  path: Assets/Models/MantaRay/Material #15.mat
+  artifactKey: Guid(2f3914cba9cd397408b300fbc86f72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MantaRay/Material #15.mat using Guid(2f3914cba9cd397408b300fbc86f72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3530fb3333f1c93ca9e5e47fc7db9e') in 0.008995 seconds 
+  Import took 0.012742 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
